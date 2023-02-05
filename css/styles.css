@@ -1,0 +1,258 @@
+:root {
+--color-logo:#4D5AE5;
+--color-text-main:#2E2F42; 
+--color-text-add:#434455; 
+--color-text-light:#ffff; 
+--color-background-dark:#2E2F42; 
+--color-background-light:#E5E5E5; 
+--color-background-white:#FFFF; 
+--color-accent:#404BBF; 
+--color-background-cards:#F4F4FD;
+--color-btn-footer-light:#E7E9FC; 
+}
+
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/*---Header---*/
+.header {
+  background-color:var(--color-background-white)
+};
+
+.header-navigation {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-logo);
+}
+.logo-header {
+ 
+  color:var(--color-text-main);
+}
+
+.header-list {
+}
+
+.header-item {
+}
+.header-link {
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
+}
+.nav-link:focus
+.nav-link:hover{
+    color: var(--color-accent);
+}
+
+/*----Hero--*/
+.hero {
+  background-color: var(--color-background-dark);
+}
+
+.hero-text {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--color-background-white);
+}
+.hero-btn {
+  font-family: inherit;
+background: var(--color-logo);
+box-shadow: 0px 4px 4px none;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+letter-spacing: 0.04em;
+color: var(--color-background-white);
+ 
+}
+
+/*---Features--*/
+
+.features {
+  background-color: var(--color-background-light);
+}
+.features-list {
+}
+.features-item {
+}
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1,2;
+  letter-spacing: 0.02em;
+  color: var(--color-text-main);
+}
+.features-text,
+.team-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-add);
+}
+
+/*----Work-examples---*/
+.work-examples {
+}
+.work-examples-title,
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--color-background-dark);
+}
+.work-examples-item {
+}
+/*---Section4-team---*/
+.Team {
+  background-color: var(--color-background-cards); 
+}
+.team-title {
+}
+.team-list {
+    
+}
+
+.team-item {
+    background-color: var(--color-background-white) ;
+}
+.team-pretext {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-background-dark)
+}
+.team-text {
+}
+/*---Footer---*/
+.footer {
+}
+.logo {
+    
+}
+.link {
+}
+.logo-footer {
+
+  color:var(--color-background-white);
+}
+.footer-text {
+}
+  
+/*---Adress--*/
+.adress {
+  font-style: normal;
+}
+.adress-list {
+}
+.adress-item {
+}
+.adress-mail,
+.adress-tel {
+  font-size: 16px;
+  line-height: 1,5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-add);
+}
+/*---Buttons-cards--*/
+.Button-card {
+  background-color: var(--background-color);
+}
+
+.button-list {
+}
+
+.button-item {
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-logo);
+  cursor: pointer;
+  background: var(--color-background-cards);
+  border: 1px solid var(--color-btn-footer-light);
+  border-radius: 4px;
+
+}
+.btn:hover,
+.btn:focus {
+  color: var(--color-background-white);
+  background-color: var(--color-accent);
+}
+
+.project-card-list {
+}
+.project-card-item {
+}
+.project-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-background-dark);
+}
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text-add);
+}
+
+/*---Footer --*/
+.footer {
+  background-color: var(--color-background-dark);
+}
+.logo {
+
+
+  
+}
+.logo-footer {
+    
+ 
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-btn-footer-light);
+}
