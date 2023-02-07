@@ -66,9 +66,12 @@ body {
 }
 /*---Header---*/
 .header {
+  height: 72px;
+  border-bottom: 1px solid var(--color-background-light);
   padding-bottom: 24px;
   padding-top: 24px;
   background-color:var(--color-background-white)
+ 
 }
 .header-container{
   display: flex;
@@ -133,7 +136,8 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: var(--color-background-dark);
-  
+   padding-bottom: 188px;
+   padding-top: 188px;
   
 }
 
@@ -186,6 +190,7 @@ border:0;
   
 }
 .features-item {
+   width: 264px;;
   
 }
 .features-title {
@@ -198,22 +203,28 @@ border:0;
 }
 .features-text{
   font-style: normal;
-
-}
-.features-text,
-.team-text {
- 
   line-height:1,5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--color-text-add);
 }
+.features-text,
+.team-text {
+  line-height:1,5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-text-add);   
+
+
+
+}
+ 
+  
 
 /*----Work-examples---*/
 .work-examples {
   background-color: var(--color-background-white);
   padding-bottom: 120px;
- 
 }
 .work-examples-title,
 .team-title {
@@ -221,12 +232,12 @@ border:0;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-background-dark);
-  padding-bottom: 72px;
   text-align: center;
+  margin-bottom: 72px;
  
 }
 .work-examples-title{
-  padding-bottom: 72px;
+  
 }
 .work-examples-item {
 }
@@ -315,8 +326,8 @@ border:0;
 
   display: flex;
   gap: 24px; ;
-  padding-bottom: 72px;
-  margin:0 auto;
+  margin-bottom: 72px;
+  
   justify-content: center;
 }
 
@@ -334,8 +345,10 @@ border:0;
   background: var(--color-background-cards);
   border: 1px solid var(--color-btn-footer-light);
   border-radius: 4px;
-  width: 116px;
+  
 height: 48px;
+padding-right: 24px;
+padding-left: 24px;
 
 }
 .btn:hover,
@@ -359,9 +372,9 @@ padding-right: 16px;
   
 }
 .project-card-item {
-   width: ((100%-48px)/3);
+   width : calc((100% - 48px)/3);
     list-style: none;
-    margin-right: 21px;
+    margin-right: 24px;
     
     
    
@@ -400,5 +413,5 @@ padding-right: 16px;
   letter-spacing: 0.02em;
   color: var(--color-btn-footer-light);
   max-width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
