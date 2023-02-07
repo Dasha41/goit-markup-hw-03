@@ -67,7 +67,7 @@ body {
 /*---Header---*/
 .header {
   height: 72px;
-  border-bottom: 1px solid var(--color-background-light);
+  border-bottom: 1px solid var(--color-btn-footer-light);
   padding-bottom: 24px;
   padding-top: 24px;
   background-color:var(--color-background-white)
