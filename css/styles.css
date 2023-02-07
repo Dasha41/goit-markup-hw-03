@@ -199,7 +199,7 @@ border:0;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--color-text-main);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .features-text{
   font-style: normal;
@@ -271,7 +271,7 @@ border:0;
 
 .team-pretext {
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -391,7 +391,7 @@ padding-right: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-background-dark);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .project-item-text {
   font-size: 16px;
