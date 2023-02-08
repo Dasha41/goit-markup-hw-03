@@ -194,7 +194,7 @@ border:0;
   
 }
 .features-title {
-  line-height: 1,2;
+  line-height: 1.2;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
@@ -203,14 +203,14 @@ border:0;
 }
 .features-text{
   font-style: normal;
-  line-height:1,5;
+  line-height:1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--color-text-add);
 }
 .features-text,
 .team-text {
-  line-height:1,5;
+  line-height:1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--color-text-add);   
@@ -264,7 +264,6 @@ border:0;
 .team-item {
     background-color: var(--color-background-white) ;
     width: 264px;
-    height: 380px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
    }
    
@@ -311,7 +310,7 @@ border:0;
 .adress-mail,
 .adress-tel {
   font-size: 16px;
-  line-height: 1,5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-add);
 }
